@@ -1,12 +1,23 @@
 repo_name: Alicella/SVMs-Classifying-Families-Genus-and-Species-of-Frogs
-report_id: bfb17dee248efe6bab4d4ce51deb6064
+report_id: 2a02321075762cf9350eb9817a3d9be8
 repo_type: Public
-timestamp: '2023-11-25T23:49:43+00:00'
+timestamp: '2023-12-14T09:54:16+00:00'
 requested_by: Alicella
 provider: github
 branch: main
-detected_tools_count: 1
+detected_tools_count: 4
 tools:
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: data/Readme.txt
+  last_updated_by: Alice Dawn
+  last_updated_on: 2023-11-25 23:56:52.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -16,3 +27,24 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source: Repo Metadata
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: data/Readme.txt
+  last_updated_by: Alice Dawn
+  last_updated_on: 2023-11-25 23:56:52.000000000 Z
